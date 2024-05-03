@@ -1,6 +1,6 @@
-package net.joey.tutorialmod.block.custom;
+package net.joey.betterfarming.block.custom;
 
-import net.joey.tutorialmod.item.ModItems;
+import net.joey.betterfarming.item.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.CropBlock;
