@@ -14,7 +14,8 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
     public static final Block TOMATO_CROP = Registry.register(Registries.BLOCK, new Identifier(BetterFarming.MOD_ID, "tomato_crop"),
-            new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+            new TomatoCropBlock(FabricBlockSettings.copyOf(Blocks.POTATOES)));
+
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
