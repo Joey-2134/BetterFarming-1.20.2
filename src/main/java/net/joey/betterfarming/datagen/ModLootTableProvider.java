@@ -32,6 +32,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
                 .with(ItemEntry.builder(ModItems.TOMATO_SEEDS).apply(ApplyBonusLootFunction.binomialWithBonusCount(Enchantments.FORTUNE, 0.5714286f, 3)));
 
         addDrop(ModBlocks.TOMATO_CROP, LootTable.builder().pool(tomatoPool).pool(seedPool));
+        addDrop(ModBlocks.SPRINKLER);
 
     }
 }
