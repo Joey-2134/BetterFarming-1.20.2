@@ -18,6 +18,8 @@ public class ModItemGroups {
                         entries.add(ModItems.TOMATO);
                         entries.add(ModItems.TOMATO_SEEDS);
                         entries.add(ModBlocks.SPRINKLER);
+                        entries.add(ModItems.FERTILISER);
+                        entries.add(ModBlocks.FERTILE_FARMLAND);
                     }).build());
 
 

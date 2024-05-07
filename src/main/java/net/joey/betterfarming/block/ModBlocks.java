@@ -3,6 +3,7 @@ package net.joey.betterfarming.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.joey.betterfarming.BetterFarming;
+import net.joey.betterfarming.block.custom.FertileFarmlandBlock;
 import net.joey.betterfarming.block.custom.SprinklerBlock;
 import net.joey.betterfarming.block.custom.TomatoCropBlock;
 import net.minecraft.block.Block;
@@ -20,6 +21,9 @@ public class ModBlocks {
 
     public static final Block SPRINKLER = registerBlock("sprinkler",
             new SprinklerBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).sounds(BlockSoundGroup.METAL).nonOpaque()));
+
+    public static final Block FERTILE_FARMLAND = registerBlock("fertile_farmland",
+            new FertileFarmlandBlock(FabricBlockSettings.copyOf(Blocks.FARMLAND).ticksRandomly()));
 
 
     private static Block registerBlock(String name, Block block) {

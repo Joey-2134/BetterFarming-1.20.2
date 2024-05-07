@@ -2,5 +2,7 @@
   "item.betterfarming.tomato": "Tomato",
   "item.betterfarming.tomato_seeds": "Tomato Seeds",
   "block.betterfarming.sprinkler": "Sprinkler",
+  "item.betterfarming.fertiliser": "Fertiliser",
+  "block.betterfarming.fertile_farmland": "Fertile Farmland",
   "itemgroup.better_farming": "Better Farming"
 }

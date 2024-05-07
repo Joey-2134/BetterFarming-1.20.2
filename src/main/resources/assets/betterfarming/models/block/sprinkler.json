@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [8, 8],
 	"textures": {
-		"0": "betterfarming:block/texture",
+		"0": "betterfarming:block/sprinkler_main",
 		"1": "betterfarming:block/stem",
-		"particle": "betterfarming:block/texture"
+		"particle": "betterfarming:block/sprinkler_main"
 	},
 	"elements": [
 		{

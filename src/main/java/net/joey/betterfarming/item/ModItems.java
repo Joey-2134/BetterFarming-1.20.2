@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.joey.betterfarming.BetterFarming;
 import net.joey.betterfarming.block.ModBlocks;
+import net.joey.betterfarming.item.custom.Fertiliser;
 import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -16,6 +17,9 @@ public class ModItems {
 
     public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
     public static final Item TOMATO_SEEDS = registerItem("tomato_seeds", new AliasedBlockItem(ModBlocks.TOMATO_CROP, new FabricItemSettings()));
+    public static final Item FERTILISER = registerItem("fertiliser"
+            , new Fertiliser(new FabricItemSettings().maxDamage(64))
+    );
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries) {
     }
