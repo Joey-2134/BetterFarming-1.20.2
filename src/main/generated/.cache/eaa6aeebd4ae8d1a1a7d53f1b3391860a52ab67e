@@ -1,4 +1,4 @@
-// 1.20.2	2024-05-07T17:49:51.8405299	BetterFarming/Model Definitions
+// 1.20.2	2024-05-09T16:06:46.8027742	BetterFarming/Model Definitions
 dd35db90b6c73853c87a0c384d2ed6ecb2cb2082 assets\betterfarming\models\item\tomato.json
 c2d0e820fa5c97d2bee3e1b90a94e2551c0c30c1 assets\betterfarming\blockstates\tomato_crop.json
 3a23c44b7a79362c1abae44524083938e971da73 assets\betterfarming\models\block\tomato_crop_stage3.json
@@ -9,5 +9,5 @@ a88bc97f34cc9d78b3d58a90f0f1a464f9040e1b assets\betterfarming\models\item\fertil
 5e652694f70c22ecd61b8bec408c95d2c065e573 assets\betterfarming\blockstates\sprinkler.json
 05fc3e0fc2fa4e67377f1d915de227ffc7d0a832 assets\betterfarming\models\block\tomato_crop_stage2.json
 c410b985df71761851913b3c2875838b6dd8d54d assets\betterfarming\models\block\tomato_crop_stage5.json
-78713d51bf060586ccdcb91ec2ca4278384e083c assets\betterfarming\models\item\tomato_seeds.json
 e7d5cee7a9fe26b63113fe236ce9be96dfa8e6a1 assets\betterfarming\models\block\tomato_crop_stage0.json
+78713d51bf060586ccdcb91ec2ca4278384e083c assets\betterfarming\models\item\tomato_seeds.json
