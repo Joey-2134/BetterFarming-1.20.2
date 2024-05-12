@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "rotation=0": {
+      "model": "betterfarming:block/sprinkler"
+    },
+    "rotation=1": {
+      "model": "betterfarming:block/sprinkler2"
+    },
+    "rotation=2": {
+      "model": "betterfarming:block/sprinkler3"
+    },
+    "rotation=3": {
+      "model": "betterfarming:block/sprinkler4"
+    }
+  }
+}

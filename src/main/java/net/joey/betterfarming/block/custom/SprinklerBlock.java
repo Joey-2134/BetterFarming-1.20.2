@@ -1,18 +1,30 @@
 package net.joey.betterfarming.block.custom;
 
 import net.minecraft.block.*;
+import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.particle.ParticleTypes;
+import net.minecraft.state.StateManager;
+import net.minecraft.state.property.IntProperty;
+import net.minecraft.state.property.Properties;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
 
-public class SprinklerBlock extends Block {
+public class SprinklerBlock extends BlockWithEntity implements BlockEntityProvider {
     private static final VoxelShape SHAPE = Block.createCuboidShape(4, 0, 4, 12, 8, 12);
+    public static final IntProperty ROTATION_INDEX = Properties.ROTATION;
 
     public SprinklerBlock(Settings settings) {
         super(settings);
+        setDefaultState(getStateManager().getDefaultState().with(ROTATION_INDEX, 1));
+    }
+
+    @Override
+    protected void appendProperties(StateManager.Builder<Block, BlockState> builder) {
+        builder.add(ROTATION_INDEX);
     }
 
     @Override
@@ -39,5 +51,9 @@ public class SprinklerBlock extends Block {
         }
     }
 
-
+    @Nullable
+    @Override
+    public BlockEntity createBlockEntity(BlockPos pos, BlockState state) {
+        return null;
+    }
 }

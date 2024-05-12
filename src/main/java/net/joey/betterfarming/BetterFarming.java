@@ -3,6 +3,7 @@ package net.joey.betterfarming;
 import net.fabricmc.api.ModInitializer;
 
 import net.joey.betterfarming.block.ModBlocks;
+import net.joey.betterfarming.block.entity.ModBlockEntities;
 import net.joey.betterfarming.item.ModItemGroups;
 import net.joey.betterfarming.item.ModItems;
 import net.joey.betterfarming.sound.ModSounds;
@@ -20,6 +21,7 @@ public class BetterFarming implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModSounds.registerSounds();
+		ModBlockEntities.registerBlockEntities();
 		//ModRecipes.registerRecipes();
 		ModWorldGeneration.generateModWorldGen();
 	}
